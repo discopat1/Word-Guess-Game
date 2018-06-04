@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+  <div id= "container">
+    <div id= "title">
+      <!-- Title with western theme and game phrase -->
+      <img src="assets/images/hangman.png">
+      <h2>Play! Unless you're afraid to lose your head...</h2>
+    </div>
+    <!-- Section that contains the entire game -->
+    <div id= "game">
+      <img src="assets/images/creepy tree.jpg" id= "big-tree">
+      <h1>Press any key to start</h1>
+     
+      <h2>Current word</h2>
+      <!-- This is where the blank word is going to go -->      
+      <div id= "missing-word"></div>
+      
+      <!-- Rest of the info about what's going on in the game -->
+      <h2>Number of guesses remaining</h2>
+      <h2>Words already used</h2>
+    </div>
+
+    <button onclick="myFunction()">Reload page</button>
+
+  </div>
+
+</body>
