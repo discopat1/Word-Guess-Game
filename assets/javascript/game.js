@@ -1,7 +1,7 @@
 
 // variables
 // create a word bank
-var wordBank = ["cowboy", "revolver", "wagon", "rattlesnake", "saloon", "sasparilla", "stirup", "railroad"];
+var wordBank = ["cowboy", "revolver", "wagon", "rattlesnake", "saloon", "sasparilla", "stirup", "railroad", "carcass", "gunslinger", "whiskey"];
 var targetWord
 var blanks = [];
 var wrongLetter = [];
